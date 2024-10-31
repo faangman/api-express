@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Express API",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "run": "node src/index.js",
+    "nodemon": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/faangman/api-express/issues"
   },
-  "homepage": "https://github.com/faangman/api-express#readme"
+  "homepage": "https://github.com/faangman/api-express#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
