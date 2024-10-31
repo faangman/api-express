@@ -1,0 +1,33 @@
+# node_modules
+node_modules/
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# temp
+tmp/
+temp/
+
+# builds
+dist/
+build/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# tests
+coverage/
+*.lcov
+
+# IDE
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# system
+.DS_Store
+Thumbs.db

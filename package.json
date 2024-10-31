@@ -1,0 +1,23 @@
+{
+  "name": "api-express",
+  "version": "1.0.0",
+  "description": "Express API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faangman/api-express.git"
+  },
+  "keywords": [
+    "express",
+    "api"
+  ],
+  "author": "Yuri Ivanov <faang.net@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faangman/api-express/issues"
+  },
+  "homepage": "https://github.com/faangman/api-express#readme"
+}
